@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encriptador de texto</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Basic&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="encabezado">
+            <div class="encabezado-container">
+                <img class="encabezado-aluraLogo" src="images/aluraLogo.png">
+                <h1 class="encabezado-titulo">Encriptador y Desencriptador de Texto</h1>
+                <img class="encabezado-oneLogo" src="images/oneLogo.png">
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="areaEncriptacion">
+                <section class="areaEncriptacion-entrada">
+                    <textarea cols="65" rows="14" class="areaTextoIngresado" id="campoTexto" placeholder="Ingrese aquí su texto"></textarea>
+                    
+                    <div class="areaAdvertencia">
+                        <p class="areaAdvertencia__simbolo">&#9888;</p>
+                        <p class="areaAdvertencia__texto">Solo letras minúsculas y sin acentos</p>
+                    </div>
+
+                    <div class="areaEncriptacion-entrada__botonesContainer">
+                        <button class="areaEncriptacion-entrada__boton--encriptar boton" id="boton" onclick="botonEncriptar()">Encriptar</button>
+                        <button class="areaEncriptacion-entrada__boton--desencriptar boton" id="boton" onclick="botonDesencriptar()">Desencriptar</button>                  
+                    </div>
+                </section>
+    
+                <section class="areaEncriptacion-salida">
+                    <img class="areaEncriptacion-salida__gif" id="imagenSalida" src="images/dudaStitch.gif">
+                    
+                    <div class="areaEncriptacion-salida__mensaje" id="mensajes">
+                        <p class="areaEncriptacion-salida__mensaje1">Ningún mensaje fue encontrado</p>
+                        <p class="areaEncriptacion-salida__mensaje2">Ingresa el texto que desees encriptar o desencriptar</p> 
+                    </div>
+
+                    <textarea cols="25" rows="15" class="areaEncriptacion-salida__textoMostrado" id="campoMensaje"></textarea>          
+                        
+                    <div class="areaEncriptacion-salida__copia" id="botonCopia">
+                        <button class="areaEncriptacion-salida__botonCopiar boton" id="botonCopia__boton" onclick="botonCopiar()">Copiar</button>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer class="piePagina">
+            <p class="piePagina__nombre descripcion">Desarrollado por: David Velasco Fierros</p>
+            <p class="piePagina__copy descripcion">&copyEncriptador & Desencriptador de Texto</p>
+
+            <div class="piePagina__contacto">
+                <a href="https://github.com/DavidVF7"><img class="piePagina__logoGithub link" src="images/contactoGithub.png"></a>
+                <a href="https://linkedin.com/in/davidvelascofierros"><img class="piePagina__logoLinkedin link" src="images/contactoLinkedin.png"></a>
+                <a href="https://app.aluracursos.com/user/davidvelascofierros"><img class="piePagina__logoAlura link" src="images/contactoAlura.png"></a>
+            </div>
+        </footer>
+
+        <script src="app.js"></script>
+    </body>
+</html>
