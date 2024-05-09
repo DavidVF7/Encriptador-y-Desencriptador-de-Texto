@@ -1,13 +1,13 @@
 .encabezado{
     background: #108556;
-    padding: 0.95rem 0;
+    padding: 0.75rem 0;
 }
 
 .encabezado-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 0.77rem;
+    margin-top: 0.25rem;
     margin-bottom: 0.97rem;
 }
 
@@ -191,7 +191,7 @@
 
 .piePagina{
     background: #108556;
-    padding: 1.5rem 0;
+    padding: 1rem 0;
     display: flex;
     vertical-align: middle;
     align-items: center;
