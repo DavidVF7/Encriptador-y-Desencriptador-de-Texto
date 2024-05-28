@@ -27,8 +27,9 @@ Puede acceder al proyecto en línea a través de GitHub Pages en [Encriptador y 
 - CSS
 - JavaScript
 
-## 👨‍💻 Personas Desarrolladoras del Proyecto
-- David Velasco Fierros
+## 👨‍💻 Desarrollado por
+
+David Velasco Fierros
 
 ## 📸 Capturas de Pantalla
 ¡Aquí tienes algunas vistas previas del proyecto!
